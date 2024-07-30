@@ -10,10 +10,10 @@ from sklearn.model_selection import train_test_split
 from matplotlib.colors import ListedColormap
 
 # Display title
-image_path = 'Innomatics-logo-1.jpg'  # Replace with your actual PNG image file path
+image_path = 'Inno_logo_.png'  # Replace with your actual PNG image file path
 
-# Display the PNG image
-st.image(image_path)
+# Specify the desired width and height
+st.image(image_path, width=400)
 
 # Title and description
 st.title("Decision Surface Visualization")
